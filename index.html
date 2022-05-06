@@ -1,0 +1,22 @@
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+</script>
+<body>
+  <header>
+    <h1>Filyas</h1>
+  </header>
+  <hr>
+  <canvas id="can">
+  </canvas>
+  <hr>
+  <p><input type="file" id="finput" multiple="false" accept="image/*" oninput="setImg()"/>
+    <output id="whop"/>
+  <h2>Filters :</h2>
+    <input type="button" value="greyscale" onclick="doGreyscale()"/>
+    <input type="button" value="red" onclick="doRed()"/>
+  <input type="button" value="Invert" onclick="doInvert()"/>
+  <input type="button" value="4 Seasons" onclick="do4Seasons()"/>
+  <input type="button" value="Rainbow" onclick="doRainbow()"/>
+  <input type="button" value="Blur" onclick="doBlur()"/></p>
+  <hr>
+    <input type="button" value="Reset Image" onclick="resetimg()"/>
+</body>

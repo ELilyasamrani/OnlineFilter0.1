@@ -1,0 +1,21 @@
+body{
+  background-color:lightblue;
+  margin : 20px;
+}
+header h1{
+  background-color : darkblue;
+  color: gold;
+  Font-size:40px;
+  Font-family:century;
+  text-align: center;
+  border : 2px solid gold;
+}
+canvas{
+  border: 3px solid gold;
+  height:480px;
+  width:640px;
+  background-color:darkblue;
+}
+p {
+  font-size:30px;
+}
